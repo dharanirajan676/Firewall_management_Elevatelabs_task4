@@ -50,6 +50,13 @@ Scan Summary:
 | Low            | 1     |
 | Total Findings | 1     |
 
+SELF RESEARCH
+Also tried to block the connection to ms edge using windows firewall management by same method
+- as inbound the new rule and select apropiate location on my pc
+- connections was interupted successfully
+- finally deleted the added imbound rules for connectivity on ms edge
+- after deletion interupted connection were back to connectivity successfully
+  
+
 Conclusion:
 By blocking Telnet port 23 and enabling SSH on port 22, insecure remote access was replaced with an encrypted protocol. This strengthens system security while maintaining administrative accessibility.
-
